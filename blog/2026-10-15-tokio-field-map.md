@@ -9,7 +9,7 @@ tags: [migration, tokio]
 
 Asyncband is a runtime-agnostic library of asynchronous synchronization primitives. Some serve similar purposes to those in `tokio::sync`, but make different trade-offs in API design and behavior.
 
-This article covers these differences and the behavioral assumptions to reconsider when migrating.
+We'll examine these differences and identify assumptions to revisit when migrating.
 
 
 <!-- truncate -->
