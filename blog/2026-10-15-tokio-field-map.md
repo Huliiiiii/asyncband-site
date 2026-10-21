@@ -1,5 +1,5 @@
 ---
-title: "Migrating from Tokio to Asyncband"
+title: "Moving from tokio::sync to Asyncband"
 description: "A guide to corresponding synchronization APIs and the differences in initialization, notifications, permit accounting, and channel behavior."
 authors: [nanami, tison]
 tags: [migration, tokio]
