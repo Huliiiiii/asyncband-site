@@ -148,7 +148,7 @@ let sem = asyncband::semaphore::Semaphore::new(0);
 
 assert!(sem.try_acquire(1).is_none());
 
-sem.add_permits(1);
+sem.release(1);
 let _permit = sem.acquire(1).await;
 ```
 
