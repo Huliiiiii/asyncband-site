@@ -11,6 +11,8 @@ Asyncband is a runtime-agnostic library of asynchronous synchronization primitiv
 
 We'll examine these differences and identify assumptions to revisit when migrating.
 
+Asyncband has no default features; enable the features for the APIs you use in `Cargo.toml`.
+
 
 <!-- truncate -->
 
